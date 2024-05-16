@@ -1,0 +1,129 @@
+*{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: rgb(75,63,63);
+}
+
+body{
+ 
+background: linear-gradient(120deg, rgba(81,198,166,1) 0%, rgba(12,236,243,0.7139648095566351) 97%);
+display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.form-container{
+  width: 450px;
+  background-color: white;
+  border-radius:10px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.63);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.63);}
+
+form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .input-container {
+  margin: 7px 0;
+  width: 400px;
+}
+form label{
+  display: flex;
+  flex-direction: column;
+}
+form input{
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 11px;
+  box-shadow: inset  -5px 1px 6px 4px rgba(0,0,0,0.18);
+-webkit-box-shadow: -5px 1px 6px 4px rgba(0,0,0,0.18);
+-moz-box-shadow: -5px 1px 6px 4px rgba(0,0,0,0.18);
+
+}
+
+form input[type=submit]{
+  width: 400px;
+  background-color: rgba(97,97,146);
+  color : white;
+}
+form input[type=submit]:hover{
+ background-color: grey;
+  
+}
+form input[type="month"]{
+  width: 240px;
+}
+form input#cvv{
+  width: 100px;
+}
+.supporting-inputs-container{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 7px 0;
+
+}
+form .info-message{
+  width: 100%;
+  border-top: solid 1px rgb(197,197,197);
+  text-align: center;
+}
+.credit-card{
+  width: 430px;
+  height: 370px;
+  border-radius:10px ;
+  position: relative;
+  background-color: rgb(96, 69, 220);
+  bottom: 30px;
+}
+.credit-card .card{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .credit-card .detail-containe{
+ height: 55px;
+
+} 
+
+ .credit-card .number-display{
+  background-color: #eaeaea;
+  width: 360px;
+  height: 60;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .credit-card h2,.credit-card p{
+  color:white; 
+ }
+ .credit-card  #cvv-display{
+   
+width: 100%;
+  display: flex;
+  justify-content:flex-end ;
+ }
+ .credit-card  #cvv-display p{
+   
+ padding: 35px;
+ font-size: 30px;
+   }
+   .visa-front-side {
+
+
+
+   }
